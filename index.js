@@ -1,5 +1,9 @@
-module.exports = function (promise) {
+module.exports = function(promise) {
   return promise
-    .then((result) => [null, result])
-    .catch((err) => [err])
+    .then(function(result) {
+      return [null, result]
+    })
+    .catch(function(err) {
+      return [err]
+    })
 }
