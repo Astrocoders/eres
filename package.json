@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Use async/await with `[err, result]` instead of try/catch.",
   "main": "index.js",
+  "types": "index.d.ts",
   "devDependencies": {
     "tape": "^4.8.0"
   },
