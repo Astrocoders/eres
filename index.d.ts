@@ -4,5 +4,5 @@ export = eres
 
 declare const eres: EresFn;
 interface EresFn {
-  <T>(value: Promise<T>): Promise<[Error, T]>;
+  <T, Error>(value: Promise<T>): Promise<[Error, T]>;
 }
